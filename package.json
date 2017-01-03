@@ -1,0 +1,20 @@
+{
+  "name": "square-brackets",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Eric Bednarz <github@bednarz.nl>",
+  "description": "Compact, lightweight and serializable HTML description syntax for server- and client-side ECMAScript.",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha -w **/*_test.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "commonmark": "^0.27.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "mocha": "^3.2.0"
+  }
+}
