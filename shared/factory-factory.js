@@ -16,4 +16,4 @@ module.exports = (render, setCode) => (config = {}) => {
   setWhitelist(whitelist || []);
 
   return render;
-}
+};
